@@ -1,9 +1,13 @@
 {
-    "account": "",
-    "client_id": "764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com",
-    "client_secret": "d-FL95Q19q7MQmFpd7hHD0Ty",
-    "quota_project_id": "gradescare",
-    "refresh_token": "1//0fSO5b2ud0DCDCgYIARAAGA8SNwF-L9IrD05cgwJYffBIZEIUhYBNPulRKEroq3m8f-mTihnhVPvn3mRiZ-ukKcc6cTlzPMen5nM",
-    "type": "authorized_user",
-    "universe_domain": "googleapis.com"
-  }
+  "type": "service_account",
+  "project_id": "gradescare",
+  "private_key_id": "12538d7a33dc7f8c6d42a5567bceb5c144e8156b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCthxEdHinv4Qew\ninMZYPrP0jK6RapBflE3//Az6ydSz8AzwvPrgialwuJoJmZboEAyp5icsqxu8UEg\nlpRHagNbcZWFw4ovMUVv196dRLaJufvkqY+Z83YEwz5lfzfIrYfszhc/yUVqTNpZ\n0SNPBw40X6RuAuUFT35dGW35CYmc+/6/CzKSL+D9Y5P9uHvHdPxjPChtY7PdqoLs\na0hXjzVCHuzXQ3BP1CP5yYqIKWOW5a2aoKVigXPkFmACNPoAveqVBuNZYspVrb1d\numny7F/mjF3QJCwHkgVVTXE0YxpaCs4jcEIhwSY+aWt9xwVzO/EMMzWVig9PSyuF\nsXsqSED/AgMBAAECggEACwMaS+3BHY77TPHMUhz8bbnaLEYFgviAMPyWAsV2jmPO\nv7osfpKY30YZ1iAxuLjXuh82qSMRnEzFJEtKB6orol737TA2kb4fuPRLFVHp/52E\n5cL48P0pTS4SxKApKxwQFzAQ+6RLOm68IJ0MD5TUCvDS34Rhgk/EJiZZ+0bmq8ab\nSBLwX9aubHJeecihjLuRbtyuiuZ+fx6HlpAQgeDj3JVMw6bXZ9dYKymGYhk+8BVK\n1+E6W5X4IvZjMPLs+l0KGagGeEGQhk7qkWz37cOm7rdOX66KSPsIKn2Aq9BqdIAr\nL7R0EFNdO5Kp+4MtAWB70bdFRFvb6rBR5bE0028liQKBgQDoYFQkREb+ECdlEEKl\nqSz3GLqmj2CHmFsS5X3EMq/Lss0NQVSe1kajcjjsJe49AMDypEdUu39OA0CxbMTJ\nW1S+2VDbK2L13M6lEngbws+Zfnu4+YMwN9Aof6Ky5jtLwm5FqjZbspxFYJJ+7gKd\n2buIyVI5V4vMJjOh3xRNStL42wKBgQC/Ky5xDKjqnOu86+o2jMMd8ooJzXPKfIWf\nWxetBNcuIb69XXOGB7HRYRztMe9A2Xf0cUQwCmWS1OwzdN6PPFadYRjRMf+JI4gQ\n8rZfgDgP0R8qOZydip0LdbnQYeijBIW3UscOVZK3cfFrWba1Pu04qxU+vhPpgVhB\ncrfchYfPrQKBgQDjB4INcLufau7iOXGz4kYxH/Lz2e6oa3zHSHmIXzELpaPaiHKB\nQL4A4A6nASPya7MXHNMoAIuPD3R8I9VbGKUCVNU/W/MyXEl0U0gPb1ReFYoRHY1D\nZbQ0bQbrHC7ghJQx8etryWQOEBzwb98Uk246ZN61cUf+62/UfVubbDgUswKBgQCX\nPoittEBn7eKsQ1G3+sHcDamce8miZ8Yn/5/JqUy9GMGZfDgL0Eakytph5uHNQsCe\nyoYSJAeclYySYWI7nJdCSDGkQJRVYaEjF4OmJwEzslWfyJjaI3KAQJHUBcJSRx+r\nnHgUJSvAqws/zWi6GKEB9okGbMfANC8pCKPielqquQKBgQDOJR536WrT00rUIOgl\np6CF9BxByeq1Rw7mu2J0nVoDBroU0g4XBkY88aHNUDHA01fFjaHeg79R6Fci+Z84\nqpykE5Fy9RxwP5AUEVuoY9XhdndE1Miv7GGYGpCsdOUlBR/2npK+DJttW1Op2KzR\ngW9HRj/07uaXfchJue5NqnON3Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "despliegeapi@gradescare.iam.gserviceaccount.com",
+  "client_id": "111042284124802520659",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/despliegeapi%40gradescare.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
