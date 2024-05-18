@@ -13,7 +13,7 @@ const storage = new Storage({
   keyFilename: keyPath
 });
 const credential = require('./key.json');
-const bucketName = 'storagegrades';
+const bucketName = 'bucket-sencillo';
 const bucket = storage.bucket(bucketName);
 //Jala datos del .env
 
