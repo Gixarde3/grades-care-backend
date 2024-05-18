@@ -7,7 +7,7 @@ const Multer = require('multer');
 const path = require('path');
 
 // Asegúrate de que la ruta es correcta y que GOOGLE_APPLICATION_CREDENTIALS está configurado
-const keyPath = process.env.GOOGLE_APPLICATION_CREDENTIALS || path.join(__dirname, 'path/to/your/credentials-file.json');
+const keyPath = process.env.GOOGLE_APPLICATION_CREDENTIALS || path.join(__dirname, 'key.json');
 
 const storage = new Storage({
   keyFilename: keyPath
