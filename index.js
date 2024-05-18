@@ -81,7 +81,7 @@ app.post('/register', (req, res) => {
         res.status(400).send({ success: false, message: 'Faltan datos requeridos' + JSON.stringify(req.body)});
         return;
     }
-    connection.query('INSERT INTO DataUser (id, profile, career, aptitudes) VALUES (?, ?, ?, ?)', [idUsuario, profile, career], (error, results) => {
+    connection.query('INSERT INTO DataUser (id, profile, career, aptitudes) VALUES (?, ?, ?, ?)', [idUsuario, profile, career, aptitudes], (error, results) => {
         if (error) {
             console.error('Error executing query: ' + error.stack);
             res.status(500).send({ success: false, message: 'Error al ejecutar la consulta de inserción' });
