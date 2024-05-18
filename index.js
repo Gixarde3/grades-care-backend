@@ -4,7 +4,14 @@ const app = express();
 const bodyParser = require('body-parser');
 const { Storage } = require('@google-cloud/storage');
 const Multer = require('multer');
-const storage = new Storage();
+const path = require('path');
+
+// Asegúrate de que la ruta es correcta y que GOOGLE_APPLICATION_CREDENTIALS está configurado
+const keyPath = process.env.GOOGLE_APPLICATION_CREDENTIALS || path.join(__dirname, 'path/to/your/credentials-file.json');
+
+const storage = new Storage({
+  keyFilename: keyPath
+});
 const credential = require('./key.json');
 const bucketName = 'storagegrades';
 const bucket = storage.bucket(bucketName);
